@@ -1,7 +1,7 @@
 import React from 'react';
 import './FavouritePage.css';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
