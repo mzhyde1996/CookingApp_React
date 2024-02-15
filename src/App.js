@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import HomePage from './pages/HomePage/HomePage';
+//import ChatGPTPage from './pages/ChatGPTPage/ChatGPTPage';
+import LoginPage from './pages/LoginPage/LoginPage'
+import RegisterPage from './pages/RegisterPage/RegisterPage'
+import FavouritePage from './pages/FavouritePage/FavouritePage'
+import SettingsPage from './pages/SettingsPage/SettingPage'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-function App() {
+const App = () => {
+
+  let name = "amar";
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path = "/" element = {<HomePage/>}></Route>
+        <Route path = "/login" element = {<LoginPage/>}></Route>
+        <Route path = "/register" element = {<RegisterPage/>}></Route>
+        <Route path="/favourite" element = {<FavouritePage/>}></Route>
+        <Route path="/settings" element = {<SettingsPage/>}></Route>
+      </Routes>
+    </BrowserRouter>
+    
   );
-}
+};
 
 export default App;

@@ -1,0 +1,77 @@
+header {
+  user-select: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #437958;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  z-index: 1;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Updated */
+  width: 100%; /* Added */
+}
+
+.left-button,
+.right-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px; /* Updated */
+}
+
+.left-button {
+  margin-right: auto; /* Added */
+  font-size: 16px; /* Updated */
+}
+
+.right-button {
+  margin-left: auto; /* Added */
+  font-size: 16px; /* Updated */
+}
+
+.header-title {
+  font-size: 28px; /* Updated */
+  color: white;
+  margin: 0 10px; /* Updated */
+  font-family: 'MyFontBold';
+}
+
+.user-icon {
+  width: 30px; /* Updated */
+  height: 30px; /* Updated */
+}
+
+.user-icon.clicked {
+  pointer-events: none;
+}
+
+@media (max-width: 360px) {
+  .left-button,
+  .right-button {
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .header-title {
+    font-size: 24px;
+    margin: 0 5px;
+    text-align: center!important;
+  }
+  
+  .user-icon {
+    width: 25px;
+    height: 25px;
+  }
+}

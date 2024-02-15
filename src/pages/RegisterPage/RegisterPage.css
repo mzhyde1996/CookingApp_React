@@ -1,0 +1,91 @@
+* {
+  font-family: 'MyFont';
+}
+
+
+header {
+  position: relative;
+}
+
+.cont {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F4F9E9;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    min-width: 400px;
+    max-width: 400px;
+  }
+  
+  form div {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .btn {
+    padding: 10px;
+    background-color: #4D8D66;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background-color: #437958;
+  }
+  
+  p {
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .error{
+    color:red;
+    margin-bottom: 5px;
+  }
+
+  .loginbtn {
+    margin-top: 7px;
+  }
+
+  .regbtn {
+    margin-top: 0;
+  }

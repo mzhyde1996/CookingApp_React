@@ -1,0 +1,105 @@
+/* CSS for HomePage component */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  background-color: #F4F9E9;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/images/food.png');
+  background-size: cover; /* Added */
+  background-position: center; /* Added */
+}
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .main-image {
+    max-height: 20vh;
+  }
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container > div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'MyFont';
+}
+
+p {
+  font-size: 20px!important;
+  margin-bottom: 1.5rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/*
+.hc {
+  font-size: 30px!important;
+  color:red;
+}
+*/
+
+.slide-image {
+  width: 1900px;
+  height: 850px;
+  object-fit: cover;
+  max-height: 45vh;
+}
+
+.each-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursive{
+  font-family: 'MyFont';
+  text-align: center;
+}
+
+
+
+
+
