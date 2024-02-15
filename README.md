@@ -4,6 +4,10 @@ This project was done as part of an intensive study exchange in Austria where we
 theme of the program which was "Sustainable Computing". I decided to go with a recipe app, which would create recipes based on what user has in their friedge. The idea is to reduce waste and promote meal prepping. The user would input the ingredients and AI helper would come up with ideas.
 AI part wasn't implemented fully  (when you click "Let's start"), but that was the general idea. 
 
+# The Published app link
+
+https://sustainablecookingapp.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
