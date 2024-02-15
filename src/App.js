@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React from 'react';
 import HomePage from './pages/HomePage/HomePage';
-//import ChatGPTPage from './pages/ChatGPTPage/ChatGPTPage';
+
 import LoginPage from './pages/LoginPage/LoginPage'
 import RegisterPage from './pages/RegisterPage/RegisterPage'
 import FavouritePage from './pages/FavouritePage/FavouritePage'
